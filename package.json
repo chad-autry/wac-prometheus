@@ -1,0 +1,22 @@
+{
+  "name": "wac-prometheus",
+  "version": "0.2.0",
+  "description": "Containerized prometheus for the wac stack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chad-autry/wac-prometheus.git"
+  },
+  "keywords": [
+    "Docker",
+    "prometheus"
+  ],
+  "author": {
+    "name": "Chad Autry",
+    "url": "http://chad-autry.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chad-autry/wac-prometheus/issues"
+  },
+  "homepage": "https://github.com/chad-autry/wac-prometheus"
+}
