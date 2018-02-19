@@ -6,7 +6,7 @@ RUN apk update \
     && apk add --no-cache curl tar \
     && curl -LO https://github.com/prometheus/prometheus/releases/download/v${prometheus_version}/prometheus-${prometheus_version}.linux-amd64.tar.gz \
     && tar -xvzf prometheus-${prometheus_version}.linux-amd64.tar.gz \
-    && mv prometheus-${prometheus_version}.linux-amd64/prometheus* /bin/ && \
+    && mv prometheus-${prometheus_version}.linux-amd64/prometheus* /bin/ \
     && apk del --purge curl tar
 
 VOLUME /etc/prometheus
