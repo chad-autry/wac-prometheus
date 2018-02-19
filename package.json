@@ -1,6 +1,6 @@
 {
   "name": "wac-prometheus",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Containerized prometheus for the wac stack",
   "repository": {
     "type": "git",
