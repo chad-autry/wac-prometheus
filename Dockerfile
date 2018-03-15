@@ -13,8 +13,8 @@ VOLUME /etc/prometheus
 
 VOLUME /var/prometheus
 
-ENTRYPOINT /bin/prometheus \ 
-            --config.file /var/prometheus/config/prometheus.yml \ 
-            --storage.tsdb.path /var/prometheus/data
+ENTRYPOINT ["/bin/prometheus",\ 
+            "--config.file", "/var/prometheus/config/prometheus.yml" \ 
+            "--storage.tsdb.path", "/var/prometheus/data"]
 
 EXPOSE 9090
